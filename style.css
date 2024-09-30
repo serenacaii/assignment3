@@ -1,0 +1,393 @@
+
+
+.antonio-normal {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+img{
+    border-radius: 1em;
+}
+.inria-sans-light {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .inria-sans-regular {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inria-sans-bold {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .inria-sans-light-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .inria-sans-regular-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .inria-sans-bold-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  h1{
+    font-family: "Antonio", sans-serif;
+    margin:0px;
+    font-size: 4em;
+    color:white;
+
+}
+h2{
+    font-family: "Antonio", sans-serif;
+    margin:0px;
+    font-size: 3em;
+}
+h3{
+    font-family: "Antonio", sans-serif;
+    margin:0px;
+    font-size: 2em;
+    color:white;
+
+}
+h4{
+    font-family: "Inria Sans", sans-serif;
+    margin:0px;
+    font-size: 1.5em;
+}
+h5{
+    font-family: "Inria Sans", sans-serif;
+    margin:0px;
+    font-size: 1em;
+}
+p{
+    font-family: "Inria Sans", sans-serif;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+body{
+    font-family: "Inria Sans", sans-serif;
+
+    padding:0px;
+    margin:0px;
+    background-color: #14042C;
+}
+
+nav{
+    position: sticky;
+    top:0px;
+    z-index: 100000;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #14042C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #D9BFFF;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.landingSection{
+    display:block;
+    position:relative;
+    margin: auto;
+    background-image: url(assets/home.png);
+    height: 80vh;
+    max-width: 100%;
+    border-radius: 1em;
+    margin: 1em;
+
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#14042C;
+    background-color: #f5fcff;
+    margin:0px;
+    padding: 0.25em 1em;
+}
+.navHeading{
+    font-family: "Antonio", sans-serif;
+    font-size: 1em;
+}
+.navRight{
+    display:flex;
+    flex-direction: row; 
+    gap:2em;
+    margin-left: auto;
+  
+}
+.content{
+    margin:2em;
+}
+
+.landingContent{
+    position:absolute;
+    bottom:4%;
+    left:2%;
+
+}
+.button{
+    background-color: #765A9F;
+    color:white;
+    padding: 0.6em 0.5em;
+    width:10vw;
+    border-radius: 1em;
+}
+.button:hover{
+    background-color:#D9BFFF;
+}
+.buttonText{
+    display: block;
+    text-align: center;
+}
+.nextTourSection{
+    display:flex;
+    flex-direction: row;
+    margin:1em;
+    gap:0em;
+}
+.flexRightAlign{
+    margin-left:auto;
+}
+
+.center{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.tourImg{
+    width:25%;
+    align-self: start; 
+}
+.tourInfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    gap:1em;
+    background-color:#f5fcff;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+
+}
+.tourText{
+    align-self: start; 
+}
+.newsImg{
+    width:15%;
+}
+.newsText{
+    width:75%;
+}
+#shop{
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em;
+    padding:1em;
+}
+.shopSection{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+.shopItem{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+}
+.recentItem{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+}
+.page50{
+    position: relative;
+    display:block;
+    background-color:#f5fcff;
+    border-radius: 1em;
+    width:50%;
+    padding:1em;
+    margin: 1em;
+}
+
+.relwidth100{
+    position:relative;
+    width:100%;
+}
+
+#top3em{
+    margin-top: 3em;
+}
+.black{
+    color:black
+}
+.white{
+    color:white;
+}
+.width10{
+    width:10%;
+}
+.alignBottom{
+    position:absolute;
+    margin:auto;
+    left:25%;
+    bottom: 2em;
+}
+@media screen and (max-width: 992px){
+    .landingSection{
+        height:50vh;
+    }
+    .page50.size992bp{
+        width: 40%;
+    }
+    #news{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    #news .tourInfo{
+        width:40vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    #news .flexRightAlign{
+        margin:auto;
+    }
+    #news .button{
+        width:20vw;
+    }
+    .newsImg{
+        width:100%;
+    }
+    .alignBottom{
+        position:static;
+        margin:auto;
+        bottom: 2em;
+    }
+
+}
+@media screen and (max-width: 576px){
+
+    .landingSection{
+        height:50vh;
+        width: 100%;
+        margin:0em;
+
+    }
+    .nextTourSection{
+        display:flex;
+        flex-direction: column;
+        padding:1em;
+        margin:1em;
+    }
+    .page50.size992bp{
+        width: 100%;
+
+        margin:1em;
+    }
+    .page50{
+        width:100%;
+        margin:1em;
+
+    }
+    .button{
+        width: 40vw;
+    }
+    .tourInfo{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+    .tourImg{
+        width:100%;
+    }
+    .tourInfo .flexRightAlign{
+        margin:auto;
+    }
+    #news{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        gap:1em;
+    }
+    #news .tourInfo{
+        width:100%;
+        margin: 0em;
+        justify-content: center;
+        align-items: center;
+        gap:1em;
+
+    }
+    .shopSection{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .relwidth100{
+        width:100%;
+    }
+    .shopItem{
+        width:48%;
+    }
+}

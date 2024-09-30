@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Andrew ID serenaca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#nextShow">Next Show</a>
+            <a href="#shows">Shows</a>
+            <a href="#news">News</a>
+            <a href="#shop">Shop</a>
+            <a href="#recentWork">Recent Work</a>
+          </div>
+          
+          <div id="main">
+            <h2>Calvin Harris</h2>
+          </div>
+
+        <div class="navRight">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+                </script>
+        </div>
+    </nav>
+
+        <section id="home">
+            <div class="landingSection">
+                <div class="landingContent">
+                    <h3>New song out now</h3>
+                    <h1>Free (with Ellie Goulding)</h1>
+                    <div id="top3em" class="button">
+                        <a href="https://www.youtube.com/watch?v=NAVv00ZbAdc"><p class="buttonText">Listen Now</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nextShow" class="nextTourSection">
+            <img class="size992bp page50"src="assets/liv.jpeg">
+            <div class="page50">
+                <h2>Next up on Oct 5 at Las Vegas</h2> 
+                <h3 class="black">LIV Beach</h3> 
+                <h4>Sat, Oct 5 at 11:30 AM PDT</h4>
+                <div class="alignBottom center">
+                    <div class="button">
+                        <b><p class="buttonText">Expedited GA</p></b>
+                        <p class="buttonText">Tickets starting at $150</p>
+                    </div>
+                    <div class="button">
+                        <b><p class="buttonText">GA</p></b>
+                        <p class="buttonText">Tickets starting at $48</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shows">
+            <h3>Shows </h3>
+            <div class="tourInfo">
+                <img class="tourImg" src="assets/palm.jpeg">
+                <div class="tourText">
+                    <h4>Dana Point, CA</h4>
+                    <h5>Sunday, October 6 2024</h5>
+                    <p>Palm Tree Music Festival</p>
+                </div>
+                <div class="flexRightAlign button">
+                    <b><p class="buttonText">GA</p></b>
+                    <p class="buttonText">Tickets starting at $140</p>                </div>
+            </div>
+            <div class="tourInfo">
+                <img class="tourImg" src="assets/liv.jpeg">
+                <div class="tourText">
+                    <h4>Las Vegas, NV</h4>
+                    <h5>Saturday, October 12 2024</h5>
+                    <p>LIV Beach</p>
+                </div>
+                <div class="flexRightAlign button">
+                    <b><p class="buttonText">GA</p></b>
+                    <p class="buttonText">Tickets starting at $140</p>                </div>
+            </div>
+            <div class="tourInfo">
+                <img class="tourImg" src="assets/aldana.jpg">
+                <div class="tourText">
+                    <h4>Bahrain</h4>
+                    <h5>Friday, October 25 2024</h5>
+                    <p>AI Dana Amphitheatre</p>
+                </div>
+                <div class="flexRightAlign button">
+                    <b><p class="buttonText">GA</p></b>
+                    <p class="buttonText">Tickets starting at $140</p>                </div>
+            </div>
+            <div class="tourInfo">
+                <img class="tourImg" src="assets/dubai.jpeg">
+                <div class="tourText">
+                    <h4>Dubai</h4>
+                    <h5>Saturday, October 26 2024</h5>
+                    <p>Ushuaia Dubai Harbor Experience</p>
+                </div>
+                <div class="flexRightAlign button">
+                    <b><p class="buttonText">GA</p></b>
+                    <p class="buttonText">Tickets starting at $140</p>                </div>
+            </div>
+            <div class="tourInfo">
+                <img class="tourImg" src="assets/liv.jpeg">
+                <div class="tourText">
+                    <h4>Las Vegas, NV</h4>
+                    <h5>Saturday, November 23 2024</h5>
+                    <p>LIV Nightclub</p>
+                </div>
+                <div class="flexRightAlign button">
+                    <b><p class="buttonText">GA</p></b>
+                    <p class="buttonText">Tickets starting at $140</p>                </div>
+            </div>
+        </section>
+        <section>
+            <h3>News</h3>
+            <div id="news">
+                <div class="tourInfo">
+                    <img class="newsImg" src="assets/home.png">
+                    <div class="newsText">
+                        <h4>Calvin Harris & Rihanna hit collab ‘We Found Love’ turns 13 years old                    </h4>
+                        <p>Calvin Harris and Rihanna‘s iconic collaboration We Found Love celebrates its 13th anniversary this year, further marking a significant moment in both artists’ careers. Released on September 22, 2011, as the lead single from Rihanna’s Talk That Talk album...</p>
+                    </div>
+                    <div class="width10 flexRightAlign button">
+                        <p class="buttonText">Read More</p>
+                    </div>
+                </div>
+                <div class="tourInfo">
+                    <img class="newsImg" src="assets/home.png">
+                    <div class="newsText">
+                        <h4>Calvin Harris' Wife Makes Bold Statement About His Ex Taylor Swift                    </h4>
+                        <p>Calvin Harris' wife didn't forget that Taylor Swift existed — in fact, she has a whole secret ritual with the singer's music. Vick Hope, who wed Harris (real name: Adam Wiles) in September 2023, confessed on the Monday, April 8, episode of her BBC Radio 1 show...</p>
+                    </div>
+                    <div class="flexRightAlign button">
+                        <p class="buttonText">Read More</p>
+                    </div>
+                </div>
+                <div class="tourInfo">
+                    <img class="newsImg" src="assets/home.png">
+                    <div class="newsText">
+                        <h4>Calvin Harris responds to criticism of Ultra Music Festival set: "You wonder why I never play EDM festivals?"</h4>
+                        <p>Calvin Harris has responded to online critics calling his set at this year's Ultra Music Festival "underwhelming." The interaction took place in the comments section of Dancing Astronaut's Instagram post, which featured clips of...</p>
+                    </div>
+                    <div class="flexRightAlign button">
+                        <p class="buttonText">Read More</p>
+                    </div>
+                </div>
+                <div class="tourInfo">
+                    <img class="newsImg" src="assets/home.png">
+                    <div class="newsText">
+                        <h4>Taylor Swift Just Sang Ex Calvin Harris’s Song ‘This Is What You Came For’—and Swifties Have Theories</h4>
+                        <p>Before there was William Bowery, there was Nils Sjöberg. On June 13, Taylor Swift revived her famous pseudonym at her second Eras Tour performance in Liverpool, England...                    </p>
+                    </div>
+                    <div class="flexRightAlign button">
+                        <p class="buttonText">Read More</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Shop</h3>
+            <div id="shop">
+                <div class="shopSection">
+                    <div class="shopItem">
+                        <img class="relwidth100" src="assets/whiteshirt.png">
+                        <h4>Ushuaia Higher Island Party | White Tee</h4>
+                        <div class="center">
+                            <div class="button">
+                                <a href="https://store.calvinharris.com/products/ushuaia-higher-island-party-white-tee"><p class="buttonText">Buy now</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shopItem">
+                        <img class="relwidth100" src="assets/blackshirt.png">
+                        <h4>Ushuaia Higher Level | Black Tee </h4>
+                        <div class="center">
+                            <div class="button">
+                                <a href=""><p class="buttonText">Buy now</p></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="shopItem">
+                        <img class="relwidth100" src="assets/miracle.png">
+                        <h4>Vinyl Release - MIRACLE (LP) </h4>
+                        <div class="center">
+                            <div class="button">
+                                <a href="https://store.calvinharris.com/products/calvin-harris-x-ellie-golding-miracle-remixes-lp"><p class="buttonText">Buy now</p></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="shopItem">
+                        <img class="relwidth100" src="assets/funkshirt.png">
+                        <h4>Funk Wav Bounces Vol. 2 Tee</h4>
+                        <div class="center">
+                            <div class="button">
+                                <a href="https://store.calvinharris.com/products/funk-wav-bounces-vol-2-tee"><p class="buttonText">Buy now</p></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="shopItem">
+                        <img class="relwidth100" src="assets/funkcap.png">
+                        <h4>Funk Wav Bounces Vol. 2 Cap
+                        </h4>
+                        <div class="center">
+                            <div class="button">
+                                <a href="https://store.calvinharris.com/products/funk-wav-bounces-vol-2-cap"><p class="buttonText">Buy now</p></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recentWork">
+            <h3>Recent Work</h3>
+            <div class="shopSection">
+                <div class="shopItem">
+                    <iframe width="100%"  src="https://www.youtube.com/embed/ebXbLfLACGM?si=jRBwzapzrLSwD0vm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">Summer</h4>
+                </div>
+                <div class="shopItem">
+                    <iframe width="100%"  src="https://www.youtube.com/embed/dGghkjpNCQ8?si=fG5gVJVbEIWxpgga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">Feel So Close</h4>
+                </div>
+                <div class="shopItem"> 
+                    <iframe width="100%" src="https://www.youtube.com/embed/8Ee4QjCEHHc?si=1RcCbcR_YLselEwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">Slide ft. Frank Ocean, Migos</h4>
+                </div>
+                <div class="shopItem">
+                    <iframe width="100%" src="https://www.youtube.com/embed/EgqUJOudrcM?si=QbrzAfQmmPuGlXeW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">How Deep Is Your Love</h4>
+                </div>
+                <div class="shopItem"> 
+                    <iframe width="100%" src="https://www.youtube.com/embed/17ozSeGw-fY?si=JFeva2EcXkPZsQU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">Sweet Nothing ft. Florence Welch</h4>
+                </div>
+                <div class="shopItem"> 
+                    <iframe width="100%" src="https://www.youtube.com/embed/6ACl8s_tBzE?si=0HUz6vyc7uC5oo9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h4 class="white">Blame ft. John Newman</h4>
+
+                </div>
+    
+            </div>
+        </section>
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
