@@ -292,6 +292,7 @@ nav{
     left:25%;
     bottom: 2em;
 }
+
 @media screen and (max-width: 992px){
     .landingSection{
         height:50vh;
@@ -328,7 +329,8 @@ nav{
     }
 
 }
-@media screen and (max-width: 576px){
+
+@media screen and (max-width: 768px){
 
     .landingSection{
         height:50vh;
@@ -345,12 +347,10 @@ nav{
     .page50.size992bp{
         width: 100%;
 
-        margin:1em;
     }
     .page50{
         width:100%;
         margin:1em;
-
     }
     .button{
         width: 40vw;
