@@ -331,12 +331,16 @@ nav{
 }
 
 @media screen and (max-width: 768px){
+    body section{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     .landingSection{
-        height:50vh;
-        width: 100%;
-        margin:0em;
-
+        width:80vw;
+        margin:0;
     }
     .nextTourSection{
         display:flex;
@@ -345,11 +349,11 @@ nav{
         margin:1em;
     }
     .page50.size992bp{
-        width: 100%;
+        width:80vw;
 
     }
     .page50{
-        width:100%;
+        width:80vw;
         margin:1em;
     }
     .button{
@@ -358,36 +362,39 @@ nav{
     .tourInfo{
         flex-direction: column;
         justify-content: center;
-        width:100%;
+        width:80vw;
     }
     .tourImg{
-        width:100%;
+        width:80%;
     }
     .tourInfo .flexRightAlign{
         margin:auto;
     }
     #news{
+        width:80vw;
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
         gap:1em;
     }
     #news .tourInfo{
-        width:100%;
-        margin: 0em;
+        width:80vw;
         justify-content: center;
         align-items: center;
-        gap:1em;
 
     }
     .shopSection{
+        width:80vw;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .relwidth100{
         width:100%;
     }
     .shopItem{
-        width:48%;
+        width:45%;
+        
     }
 }
